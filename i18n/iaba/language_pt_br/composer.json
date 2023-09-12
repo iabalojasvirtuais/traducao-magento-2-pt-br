@@ -1,0 +1,28 @@
+{
+  "name": "iaba/language_pt_br",
+  "description": "Tradução do Magento 2 para Português Brasil - IABA",
+  "version": "0.0.1",
+  "homepage": "https://www.iaba.com.br/traducao-magento-2",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "IABA Lojas Virtuais Magento",
+      "homepage": "https://www.iaba.com.br"
+    },
+    {
+      "name": "Magento official translations project for Magento 2",
+      "homepage": "https://crowdin.com/project/magento-2"
+    }
+  ],
+  "require": {
+    "magento/framework": "*"
+  },
+  "type": "magento2-language",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
